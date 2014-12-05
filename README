@@ -1,0 +1,25 @@
+For all your installation needs, bring up the ALP installer, located at install/install.php
+
+If you're upgrading from a previous version of ALP, bring up the ALP upgrader, located at install/upgrade.php
+
+For any other help needs, we recommended going to our help website located at:
+	http://www.nerdclub.net/alp/help.php
+
+Notes:
+-We recommend that you give _config.php write permissions before running the installer.
+-If you wish to have your attendees be able to upload files, give write permissions to /files and all sub-directories
+-If you wish to have your attendees be able to upload music, give write permissions to /music/mp3s
+-If you are allowing your attendees to upload music or files, please make sure to edit your php.ini and change upload_max_filesize to at least 16M
+-If you want map thumbnails on game server listings, please download the thumbnail pack and place it into alp.
+
+System Requirements:
+PHP 4.3.0+
+MySQL 4.0+ - If you use MySQL 3.x you will get errors in any schedule pages, you will need to disable the schdule.
+
+Even if your ALP install concludes successfully and without error, I'd still recommend reading the documentation
+file entitled 'Using ALP at your LAN Party.'  It will help you get the most out of ALP.  It's also located at the 
+help file.
+
+http://www.nerdclub.net/alp/
+
+Thanks for using ALP!

@@ -1,0 +1,301 @@
+<?
+// Page colors
+$col_highlight = "e7e7e7";
+$col_normal = "#c0c0c0";
+$col_border = "#5b5b5b";
+$col_background = "#222222";
+$col_highlight_large = "#9999AA";
+
+// Tooltips
+$col_tooltip_color = "#e7e7e7";
+$col_tooltip_background = "#222222";
+$col_tooltip_caption = "#ffffff";
+$col_tooltip_caption_background = "#333333";
+$col_tooltip_font = "Tahoma";
+
+// Fonts
+$col_font = "Tahoma";
+$col_fontsize = "8pt";
+$col_font_large = "Arial";
+$col_fontsize_large = "12pt";
+
+// Links
+$col_linkcolor = "#9999AA";
+$col_linkdecoration = "none";
+
+// Teams
+$col_blueteam = "#6568AD";
+$col_redteam = "#9d6453";
+$col_specteam = "green";
+
+$col_blue_background = "#000000";
+$col_red_background = "#000000";
+
+$col_blue_table = "#FFFFFF";
+$col_red_table = "#FFFFFF";
+?>
+BODY {
+	background: <?=$col_background?>;
+	color: <?=$col_normal?>;
+}
+BODY, TD, INPUT, A, SELECT {
+	font-family: <?=$col_font?>;
+	font-size: <?=$col_fontsize?>;
+}
+.tooltip_bg {
+	background-color: <?=$col_tooltip_background?>;
+}
+A.tooltip_close {
+	color: <?=$col_tooltip_caption?>;
+}
+.tooltip_bg_text {
+	color: <?=$col_tooltip_caption?>;
+}
+.tooltip_fg_text {
+	color: <?=$col_tooltip_color?>;
+}
+.tooltip_fg {
+	background: <?=$col_tooltip_caption_background?>;
+}
+.main_table {
+	border: 1px solid <?=$col_border?>;
+}
+.color {
+	color: <?=$col_highlight?>;
+}
+.blueteam {
+	color: <?=$col_blueteam?>;
+}
+.bluebox {
+	background-color: <?=$col_blue_background?>;
+	color: <?=$col_blue_table?>;
+}
+.redbox {
+	background-color: <?=$col_red_background?>;
+	color: <?=$col_red_table?>;
+}
+.redteam {
+	color: <?=$col_redteam?>;
+}
+.specteam {
+	color: <?=$col_specteam?>;
+}
+.big {
+	font-size: <?=$col_fontsize_large?>;
+	font-family: <?=$col_font_large?>;
+	color: <?=$col_highlight_large?>;
+}
+.nblock {
+	font-size: 9pt;
+	font-family: <?=$col_font_large?>;
+	color: <?=$col_highlight_large?>;
+}
+
+A.link:link, A.link:active, A.link:hover, A.link:visited {
+	text-decoration: <?=$col_linkdecoration?>;
+	color: <?=$col_linkcolor?>;
+}
+TD.row {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+TD.row2 {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+INPUT, SELECT {
+	border: 1px solid <?=$col_border?>;
+	background: <?=$col_background?>;
+	color: <?=$col_normal?>;
+}
+INPUT.checkbox {
+	background: none;
+	border: none;
+}
+
+// Q3 Color Codes
+.gsquery-black { color: black; }
+.gsquery-red { color: red; }
+.gsquery-yellow { color: #E6E600; }
+.gsquery-darkgreen { color: darkgreen; }
+.gsquery-blue { color: blue; }
+.gsquery-cyan { color: cyan; }
+.gsquery-pink { color: pink; }
+.gsquery-white { color: darkgrey; }
+.gsquery-blue-night { color:#7F7FFD; }
+.gsquery-red-night { color:#D06B6B; } 
+
+
+/* colors for FarCry */ 
+.gsquery-light-blue { color: #00FFFF; }
+.gsquery-green { color: green; }
+.gsquery-orange { color: #FF9600; }
+.gsquery-grey { color: #000099; }
+
+/* colors for many Q3 based games */
+.gsquery-1 { color: #FF1924;}
+.gsquery-2 { color: #A0B965;}
+.gsquery-3 { color: #F5F501;}
+.gsquery-4 { color: #4A54EA;}
+.gsquery-5 { color: #05FFFF;}
+.gsquery-6 { color: #FF02FC;}
+.gsquery-7 { color: #FFFFFF;}
+.gsquery-8 { color: #7B00D5;}
+.gsquery-9 { color: #7B00D5;}
+.gsquery-0 { color: #000000;}
+.gsquery-a { color: #30DBB9;}
+.gsquery-b { color: #D79244;}
+.gsquery-c { color: #B461A5;}
+.gsquery-d { color: #87A8D3;}
+.gsquery-e { color: #BB1080;}
+.gsquery-f { color: #70C2D0;}
+.gsquery-g { color: #92E154;}
+.gsquery-h { color: #6A0E25;}
+.gsquery-i { color: #374D7F;}
+.gsquery-j { color: #5CCB24;}
+.gsquery-k { color: #CDB78E;}
+.gsquery-l { color: #A1BDD3;}
+.gsquery-m { color: #AE32A4;}
+.gsquery-n { color: #577B3D;}
+.gsquery-o { color: #A36C71;}
+.gsquery-p { color: #259364;}
+.gsquery-q { color: #A29894;}
+.gsquery-r { color: #B254AA;}
+.gsquery-s { color: #280176;}
+.gsquery-t { color: #690B25;}
+.gsquery-u { color: #332089;}
+.gsquery-v { color: #07D944;}
+.gsquery-w { color: #000000;}
+.gsquery-x { color: #000829;}
+.gsquery-y { color: #1093BF;}
+.gsquery-z { color: #B08537;}
+.gsquery-A { color: #4601EF;}
+.gsquery-B { color: #3DDD31;}
+.gsquery-C { color: #DD5835;}
+.gsquery-D { color: #354C80;}
+.gsquery-E { color: #69B127;}
+.gsquery-F { color: #01226F;}
+.gsquery-G { color: #4CB02A;}
+.gsquery-H { color: #98727D;}
+.gsquery-I { color: #4DBEE0;}
+.gsquery-J { color: #97AE9E;}
+.gsquery-K { color: #A6D77E;}
+.gsquery-L { color: #AA83D6;}
+.gsquery-M { color: #0BD67A;}
+.gsquery-N { color: #DF910B;}
+.gsquery-O { color: #BDBEEA;}
+.gsquery-P { color: #00FF01;}
+.gsquery-Q { color: #E744B7;}
+.gsquery-R { color: #293CD6;}
+.gsquery-S { color: #45EC2C;}
+.gsquery-T { color: #C84F35;}
+.gsquery-U { color: #8649D8;}
+.gsquery-V { color: #8AC9AC;}
+.gsquery-W { color: #7F00B1;}
+.gsquery-X { color: #22B8B6;}
+.gsquery-Y { color: #8DD600;}
+.gsquery-Z { color: #AE96E2;}
+.gsquery-exc { color: #000000; }
+.gsquery-at { color: #B58A2E;}
+.gsquery-pound { color: #000000; }
+.gsquery-dollar { color: #FF1924; }
+.gsquery-percent { color: #5844B3;}
+.gsquery-and { color: #0000F8;}
+.gsquery-star { color: #FFFFFF; }
+.gsquery-lparen { color: #E417E2; }
+.gsquery-rparen { color: #01FFFF; }
+.gsquery-_ { color: #A42627;}
+.gsquery-plus { color: #C3C2BD; }
+.gsquery-lbracket { color: #B2150C;}
+.gsquery-rbracket { color: #30414B; }
+.gsquery-bar { color: #7ADC4B;}
+.gsquery-colon { color: #CCB8AD; }
+.gsquery-less { color: #00FC02;}
+.gsquery-greater { color: #24B6AB;}
+.gsquery-questionmark { color: #8CD746;}
+.gsquery-- { color: #42433B;}
+.gsquery-equal { color: #92BEA7;}
+.gsquery-lsqr { color: #3FAD92;}
+.gsquery-rsqr { color: #24BA94;}
+.gsquery-lslash { color: #A95D77;}
+.gsquery-comma { color: #7D827B;}
+.gsquery-point { color: #614A82;}
+.gsquery-rslash { color: #2B0163;}
+.gsquery-tick { color: #F5F501;}
+.gsquery-quote { color: #000000; }
+.gsquery-semic { color: #E744B7; }
+
+// NEW FOR VERSION 3.8  BEGIN
+
+/* colors for Enemy Territory */
+.gsqueryet-1 { color: #FF0000;}
+.gsqueryet-2 { color: #00FF00;}
+.gsqueryet-3 { color: #FF0000;}
+.gsqueryet-4 { color: #0000FF;}
+.gsqueryet-5 { color: #00FFFF;}
+.gsqueryet-6 { color: #FF00FF;}
+.gsqueryet-7 { color: #FFFFFF;}
+.gsqueryet-8 { color: #FF7F00;}
+.gsqueryet-9 { color: #7F7F7F;}
+.gsqueryet-0 { color: #000000;}
+.gsqueryet-a { color: #FF9919;}
+.gsqueryet-b { color: #007F7F;}
+.gsqueryet-c { color: #7F007F;}
+.gsqueryet-d { color: #007FFF;}
+.gsqueryet-e { color: #7F00FF;}
+.gsqueryet-f { color: #3399CC;}
+.gsqueryet-g { color: #CCFFCC;}
+.gsqueryet-h { color: #006633;}
+.gsqueryet-i { color: #FF0033;}
+.gsqueryet-j { color: #B21919;}
+.gsqueryet-k { color: #993300;}
+.gsqueryet-l { color: #CC9933;}
+.gsqueryet-m { color: #999933;}
+.gsqueryet-n { color: #FFFFBF;}
+.gsqueryet-o { color: #FFFF7F;}
+.gsqueryet-p { color: #000000;}
+.gsqueryet-q { color: #FF0000;}
+.gsqueryet-r { color: #00FF00;}
+.gsqueryet-s { color: #FFFF00;}
+.gsqueryet-t { color: #0000FF;}
+.gsqueryet-u { color: #00FFFF;}
+.gsqueryet-v { color: #FF00FF;}
+.gsqueryet-w { color: #FFFFFF;}
+.gsqueryet-x { color: #FF7F00;}
+.gsqueryet-y { color: #7F7F7F;}
+.gsqueryet-z { color: #BFBFBF;}
+.gsqueryet-exc { color: #FF9919; }
+.gsqueryet-at { color: #7F3F00;}
+.gsqueryet-pound { color: #7F007F; }
+.gsqueryet-dollar { color: #007FFF; }
+.gsqueryet-percent { color: #FFFFBF;}
+.gsqueryet-and { color: #3399CC;}
+.gsqueryet-star { color: #FFFFFF; }
+.gsqueryet-lparen { color: #006633; }
+.gsqueryet-rparen { color: #FF0033; }
+.gsqueryet-_ { color: #7F0000;}
+.gsqueryet-plus { color: #993300; }
+.gsqueryet-lbracket { color: #BFBFBF;} 
+.gsqueryet-rbracket { color: #7F7F00; }
+.gsqueryet-bar { color: #00FF00;}
+.gsqueryet-colon { color: #BFBFBF; }
+.gsqueryet-less { color: #00FF00;}
+.gsqueryet-greater { color: #0000FF;}
+.gsqueryet-questionmark { color: #FF0000;}
+.gsqueryet-- { color: #999933;}
+.gsqueryet-equal { color: #7F7F00;}
+.gsqueryet-lsqr { color: #BFBFBF;}
+.gsqueryet-rsqr { color: #7F7F00;}
+.gsqueryet-lslash { color: #007F00;}
+.gsqueryet-comma { color: #CC9933;}
+.gsqueryet-point { color: #FFFFBF;}
+.gsqueryet-rslash { color: #FFFF7F;}
+.gsqueryet-tick { color: #CCFFCC;}
+.gsqueryet-quote { color: #FF7F00; }
+.gsqueryet-semic { color: #BFBFBF; }
+
+// NEW FOR VERSION 3.8 END

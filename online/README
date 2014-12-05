@@ -1,0 +1,41 @@
+NOTE: This stuff is in beta form...I have tested it on my system and it should work ok for you!
+However, there may be a few things I havn't thought of, or things that need fixing. 
+If you find any of these please post them on the fourms at  www.nerdclub.net/alp   THX!!!
+
+Baseline by: Joe
+
+Hard Coding by: Havoc aka Charlie Croom
+
+This is the first release of the Online addon for ALP. 
+If you have any questions please visit www.nerdclub.net/alp and read the documentation and search the forums.
+After searching through the forums if you still have questions feel free to post your question there.
+
+Notes: 
+1. sendmail requires the mail function to be enabled.
+2. Paypal functionality requires you to enable IPN. 
+		To do this login to paypal and go to profile
+		Select Instant Payment notification from Seller Tools
+		Enable it and put the link as http://FULL LINK TO THIS DIR/notify.php
+		This will auto send e-mails to you and update their payment status
+
+
+
+Installation:
+1. Copy the contents of the "online" folder inside the ALP to your web server where you want the online scripts to be run.
+2. Run the install.php page to create the tables and to create the admin account. When you run this it will generate a config file for you...please make sure you have permissions to do this!
+	2a. Each time you update the settings you will have to choose a new (or re-type) admin password. This is due to one-way encryption. Maybe we'll fix later ;)
+3. DELETE INSTALL.PHP!!! If you do not your database could be deleted or compromised.
+
+Usage:
+With this utility you are able to:
+Have and see Basic party information.
+Register and pre-pay for the event.
+Administrate party info
+exports go to admin/export.txt
+
+To-Do:
+Update Paypal thing...does it even work? Let me know!
+More user management?
+Mass-mailings to users
+Export party settings for main page (Once full-alp uses this mode) (Export not perfect either)
+Bug-fixes

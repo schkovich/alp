@@ -1,0 +1,9 @@
+Changelog for ALP Online module
+
+Changes during BETA 0.1
+
+- fixed: chdir() calls made for includes declared in admin directory
+- updated: some unnecessary double-calls to session start
+- updated: genesis with latest engine
+- fixed: remaining count on summary at admin index
+- updated: user table structure to conform with 0.98.x releases
