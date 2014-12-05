@@ -249,7 +249,7 @@ if(empty($_GET['s'])) {
 	foreach($create_table_queries as $tkey => $pquery) { ?>
 		<tr>
 			<td><?php echo get_lang("stepfour_newtable"); ?>: <?php echo $tkey; ?>&nbsp;&nbsp;</td>
-			<td><?php if($dbc->database_query("DROP TABLE IF EXISTS ".$tkey.";")&&$dbc->database_query("CREATE TABLE ".$tkey."(".$pquery.") TYPE=MyISAM;")) {
+			<td><?php if($dbc->database_query("DROP TABLE IF EXISTS ".$tkey.";")&&$dbc->database_query("CREATE TABLE ".$tkey."(".$pquery.") ENGINE=MyISAM;")) {
 						echo "<font color=#00ff00>".get_lang("success")."</font>";
 					} else { echo "<font color=#ff0000>".get_lang("failure")."</font>"; $allgood = false; } ?></td>
 		</tr>

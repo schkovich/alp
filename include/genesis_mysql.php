@@ -3,10 +3,9 @@
 //Written By: Travis Kreikemeier
 //Database abstraction layer, login code, plus more.
 
-DEFINE('CONFIG_LOCATION', '_genesis.php');
 DEFINE('DATABASE_TYPE', 'MYSQL');
 
-require_once(CONFIG_LOCATION);
+require_once('_genesis.php');
 
 class genesis
 {
