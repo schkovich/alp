@@ -137,7 +137,7 @@ if ($x->is_secure()) {
 					?>
 					<br />
 					<strong>source</strong>: (copy this into the <a href="admin_news.php">administrator news page</a> to save this post)<br />
-					<div style="border: 1px dashed <?php echo $colors['blended_text']; ?>; margin: 4px 4px 4px 4px; padding: 4px 4px 4px 4px; font: 11px 'Courier New';"><?php echo $default_news; ?></span>
+					<div style="border: 1px dashed <?php echo $colors['blended_text']; ?>; margin: 4px 4px 4px 4px; padding: 4px 4px 4px 4px; font: 11px 'Courier New';"><?php echo $default_news; ?></div>
 					<?php
 				}
 				end_module();
